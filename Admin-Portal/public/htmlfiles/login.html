@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>School</title>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+
+	<style>
+		html,
+		body,
+		header,
+		.view {
+			height: 100vh;
+		}
+
+
+
+		.intro-2 {
+
+			background-image: url(/images/home_back.jpg);
+
+			background-size: cover;
+			background-position: center;
+			height: 100vh;
+			background-attachment: fixed;
+
+		}
+
+		.top-nav-collapse {
+			background-color: #3f51b5 !important;
+		}
+
+		.navbar:not(.top-nav-collapse) {
+			background: transparent !important;
+		}
+
+		@media (max-width: 768px) {
+			.navbar:not(.top-nav-collapse) {
+				background: #3f51b5 !important;
+			}
+		}
+
+		@media (min-width: 800px) and (max-width: 850px) {
+			.navbar:not(.top-nav-collapse) {
+				background: #3f51b5 !important;
+			}
+		}
+
+
+
+		.card {
+			/*background-color: rgba(229, 228, 255, 0.2);*/
+			background-color: rgba(0, 0, 0, 0.0);
+		}
+
+		.md-form label {
+			color: #ffffff;
+		}
+
+		h6 {
+			line-height: 1.7;
+		}
+
+
+		.card {
+			margin-top: 30px;
+		}
+
+		.view input[type=text],
+		.view input[type=password],
+		.view input[type=email] {
+			border-bottom: 1px solid #fff;
+		}
+
+		.view .md-form input[type=text]:focus:not([readonly]),
+		.view .md-form input[type=password]:focus:not([readonly]),
+		.view .md-form input[type=email]:focus:not([readonly]) {
+			border-bottom: 1px solid #ffffff !important;
+			-webkit-box-shadow: 0 1px 0 0 #ffffff !important;
+			box-shadow: 0 1px 0 0 #ffffff !important;
+		}
+
+		.view .md-form label {
+			color: #fff;
+		}
+
+		.view .md-form label.active {
+			color: #ffffff !important;
+		}
+
+		.btn {
+			border-radius: 350px;
+		}
+
+		.md-form select {
+			width: 93%;
+		}
+
+		.select_option_color {
+			background-color: green;
+		}
+
+		.logo {
+			height: 60px;
+			width: auto;
+			float: left;
+			margin-top: 20px;
+			border-radius: 350px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<!--Main Navigation-->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+			<div class="container">
+				<a class="navbar-brand" href="#"><strong>SCHOOL</strong></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+					<form class="form-inline">
+						<div class="md-form my-0">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+						</div>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+
+		<!--Intro Section-->
+		<section class="view intro-2">
+			<div class="mask rgba-stylish-strong h-100 d-flex justify-content-center align-items-center">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-sm-12">
+
+
+							<!--Form with header-->
+							<div class=" card modal-dialog cascading-modal modal-avatar">
+
+								<!-- Content -->
+								<div class="modal-content" style="background-color: rgba(255, 255, 255, .4)">
+
+									<!-- Header -->
+									<div class="modal-header">
+										<img src='../images/school_logo.jpg' alt='logo'
+											class="rounded-circle img-fluid">
+									</div>
+									<!-- Body -->
+									<div class="modal-body text-center mb-1">
+
+										<h5 class="mt-1 mb-2 text-white">School Login</h5>
+
+										<div class="md-form text-white ">
+
+											<input type="number" name='schoolId' id="schoolId"
+												class="form-control form-control-lg text-white" >
+											<label for="orangeForm-pass">School Id</label>
+										</div>
+
+										<div class="md-form text-white ">
+
+											<input type="password" name='password' id=""
+												class="form-control form-control-lg text-white" required>
+											<label for="orangeForm-pass">Password</label>
+							
+
+											<div class="text-center pt-4">
+												<button type="submit" class="btn btn-dark btn-rounded">Login <i
+														class="fas fa-sign-in-alt ml-1"></i></button>
+											</div>
+
+
+
+										</div>
+										<div class="inline-ul text-center d-flex justify-content-center">
+											<!-- Facebook -->
+											<a type="button" href='https://www.facebook.com/'
+												class="btn-floating blue-gradient darken-4"><i
+													class="fab fa-facebook-f"></i></a>
+
+											<!-- Dribbble -->
+											<a type="button" href='https://instagram.com/'
+												class="btn-floating peach-gradient darken-4"><i
+													class="fab fa-instagram"></i></a>
+
+											<!-- Twitter -->
+											<a type="button" class="btn-floating aqua-gradient darken-4"><i
+													class="fab fa-twitter"></i></a>
+
+											<!-- Pinterest -->
+											<a type="button" class="btn-floating pink darken-4"><i
+													class="fab fa-pinterest-p"></i></a>
+
+											<!-- youtube -->
+											<a type="button" href='https://www.youtube.com/'
+												class="btn-floating bg-danger darken-4"><i
+													class="fab fa-youtube"></i></a>
+
+											<!-- snapchat -->
+											<a type="button" href='https://www.snapchat.com'
+												class="btn-floating bg-warning darken-4"><i
+													class="fab fa-snapchat-ghost"></i></a>
+
+
+										</div>
+
+
+									</div>
+									<!-- Content -->
+
+
+									<!-- Modal: Avatar -->
+
+
+
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+		</section>
+
+
+
+
+
+
+	</header>
+	<!--Main Navigation-->
+
+
+
+
+</body>
+
+</html>

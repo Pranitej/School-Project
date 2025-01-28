@@ -1,0 +1,10 @@
+.hover {
+  background-color: orange;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hover:hover {
+  background-color: brown;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 450px rgba(250, 3, 3, 1);
+}
